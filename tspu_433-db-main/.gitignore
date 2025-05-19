@@ -1,3 +1,9 @@
 .env
 music.db
 
+echo venv/ > .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo db.sqlite3 >> .gitignore
+echo .vscode/ >> .gitignore
+echo *.log >> .gitignore
